@@ -26,7 +26,7 @@ export default defineConfig(({ mode }) => {
 			// 	conditions: env["VITEST"] ? ["browser"] : []
 			// }
 			resolve: {
-				conditions: process.env.TEST_ENV === "server" ? [] : ["browser"]
+				conditions: env.TEST_ENV === "server" ? [] : ["browser"]
 			}
 		}
 	};
