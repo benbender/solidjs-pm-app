@@ -1,0 +1,60 @@
+{
+	"editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairsHorizontal": true,
+	"editor.find.addExtraSpaceOnTop": false,
+	"editor.glyphMargin": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.inlineSuggest.enabled": true,
+	"editor.renderWhitespace": "boundary",
+	"editor.suggestSelection": "first",
+	"editor.codeActionsOnSave": [
+		"source.fixAll",
+		// "source.fixAll.eslint",
+		"source.organizeImports",
+		"source.addMissingImports",
+		"source.sortMembers",
+		"source.sortImports"
+	],
+	"editor.tabSize": 2,
+	"editor.formatOnSave": true,
+
+	"workbench.editor.closeOnFileDelete": true,
+	"workbench.editor.highlightModifiedTabs": true,
+	"workbench.fontAliasing": "antialiased",
+
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
+
+
+	"files.associations": {
+		"*.css": "postcss"
+	},
+
+	"css.lint.unknownAtRules": "ignore",
+
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"json",
+		"jsonc",
+		"json5",
+		"html",
+		"markdown"
+	],
+
+	"eslint.probe": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"json",
+		"jsonc",
+		"json5",
+		"html",
+		"markdown"
+	],
+}
